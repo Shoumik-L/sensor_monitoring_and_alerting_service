@@ -1,0 +1,14 @@
+{
+  "name": "p1-sensor-alerts",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "simulate": "node simulator.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.12.0"
+  }
+}
